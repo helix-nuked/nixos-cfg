@@ -201,6 +201,13 @@
       # Workaround for https://github.com/NixOS/nix/issues/9574
       nix-path = config.nix.nixPath;
       auto-optimise-store = true;
+
+      substituters = lib.mkAppend [
+        "https://nix-community.cachix.org"
+      ];
+      trusted-public-keys = lib.mkAppend [
+        "nix-community.cachix.org-1:mB9FSh9qf2dCimDSUo8Zy7bkq5CX+/rkCWyvRCYg3Fs="
+      ];
     };
     # Opinionated: disable channels
     channel.enable = false;
