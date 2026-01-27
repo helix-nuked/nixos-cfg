@@ -104,7 +104,7 @@
       ntsync = true;
     };
 
-    kernelParams = ["nvme_load=yes" "quiet" "splash" "udev.log_level=0"];
+    kernelParams = ["nvme_load=yes" "quiet" "splash" "udev.log_level=0" "nowatchdog" "intel_pstate=passive"];
     blacklistedKernelModules = ["nouveau" "iTCO_wdt"];
   };
 
