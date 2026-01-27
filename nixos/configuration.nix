@@ -242,6 +242,9 @@
 
   # Services section
   services = {
+    blueman = {
+      enable = true;
+    };
     bpftune = {
       enable = true;
     };
@@ -510,6 +513,10 @@
   };
 
   hardware = {
+    bluetoth = {
+      enable = true;
+      powerOnBoot = false;
+    };
     cpu = {
       intel = {
         updateMicrocode = true;
