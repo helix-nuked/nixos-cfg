@@ -34,7 +34,7 @@
         enable = true;
         extraArgs = "--keep-since 4d --keep 3";
       };
-      flake = inputs.self.outPath;
+      flake = "/etc/nixos"; # WORKS AS SYMLINK
     };
     fish = {
       enable = true;

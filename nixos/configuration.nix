@@ -694,7 +694,7 @@
 
   system.autoUpgrade = {
     enable = false;
-    flake = inputs.self.outPath;
+    flake = "/etc/nixos"; # WORKS AS SYMLINK
     # flags = [
     #   "--print-build-logs"
     # ];
