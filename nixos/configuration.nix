@@ -513,7 +513,7 @@
   };
 
   hardware = {
-    bluetoth = {
+    bluetooth = {
       enable = true;
       powerOnBoot = false;
     };
