@@ -693,7 +693,7 @@
   # system.copySystemConfiguration = true;
 
   system.autoUpgrade = {
-    enable = true;
+    enable = false;
     flake = inputs.self.outPath;
     # flags = [
     #   "--print-build-logs"
