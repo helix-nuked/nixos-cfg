@@ -407,18 +407,6 @@
     openssh = {
       enable = true;
       openFirewall = true;
-      settings = {
-        PasswordAuthentication = false;
-      };
-      knownHosts = {
-        # "X7d" = {
-        #   publicKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJDUhd//gQSHfraRTaOk+OFOC5rPBpkb15eLGFUbpt2B";
-        # };
-        "mx" = {
-          publicKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICygOukthTb0d5a1sISZki7Ny+UOG/V82slUIxAXPiN3";
-          hostNames = [ "gaming-laptop" "172.28.11.144" ];
-        };
-      };
     };
     lact = {
       enable = true;
