@@ -404,6 +404,11 @@
     flatpak = {
       enable = true;
     };
+    mosh = {
+      enable = true;
+      openFirewall = true;
+      withUtempter = true;
+    };
     openssh = {
       enable = true;
       openFirewall = true;
