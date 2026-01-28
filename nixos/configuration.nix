@@ -407,6 +407,14 @@
     openssh = {
       enable = true;
       openFirewall = true;
+      settings = {
+        PasswordAuthentication = false;
+      };
+      knownHosts = {
+        "HONOR X7d" = {
+          publicKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJDUhd//gQSHfraRTaOk+OFOC5rPBpkb15eLGFUbpt2B";
+        };
+      };
     };
     lact = {
       enable = true;
