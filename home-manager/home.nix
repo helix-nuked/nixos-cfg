@@ -33,7 +33,7 @@
         enable = true;
         extraArgs = "--keep-since 4d --keep 3";
       };
-      flake = "/etc/nixos"; # WORKS AS SYMLINK
+      flake = "/etc/nixos"; # #FIXME WORKS AS SYMLINK
     };
     fish = {
       enable = true;

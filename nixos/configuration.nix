@@ -104,7 +104,7 @@
       ntsync = true;
     };
     resumeDevice = "/dev/disk/by-uuid/8583f2df-34ce-4eae-b2b5-7da854b675ff";
-    kernelParams = ["nvme_load=yes" "quiet" "splash" "udev.log_level=0" "nowatchdog" "intel_pstate=passive"];
+    kernelParams = ["nvme_load=yes" "quiet" "splash" "udev.log_level=0" "nowatchdog"];
     blacklistedKernelModules = ["nouveau" "iTCO_wdt"];
   };
 
@@ -705,7 +705,7 @@
 
   system.autoUpgrade = {
     enable = false;
-    flake = "/etc/nixos"; # WORKS AS SYMLINK
+    flake = "/etc/nixos"; # #FIXME WORKS AS SYMLINK
     # flags = [
     #   "--print-build-logs"
     # ];
