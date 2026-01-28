@@ -242,9 +242,9 @@
 
   # Services section
   services = {
-    blueman = {
-      enable = true;
-    };
+    # blueman = {
+    #   enable = true;
+    # };
     bpftune = {
       enable = true;
     };
