@@ -610,6 +610,9 @@
         hashedPassword = "$y$j9T$wXdQSLqyNXpCehMmnmHvn0$cv4eLhzzVjjZmtZOjECicK/ecJL2vDGjN29iAdlVRP4";
         shell = pkgs.fish;
       };
+      root = {
+        hashedPassword = lib.mkForce "$y$j9T$ideJ4bo.KuXwECgFLZ45K0$puNfHyp1Fi9fg.iYb7ymtlr7HOrYgasERSLkPC1vav4";
+      };
     };
   };
 
