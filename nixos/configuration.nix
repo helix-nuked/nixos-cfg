@@ -245,9 +245,9 @@
     # blueman = {
     #   enable = true;
     # };
-    bpftune = {
-      enable = true;
-    };
+    # bpftune = {
+    #   enable = true;
+    # };
     scx = {
       enable = true;
       scheduler = "scx_rustland";
