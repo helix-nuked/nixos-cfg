@@ -1,7 +1,7 @@
 {
   # config, # Unused apparently
   pkgs,
-  inputs,
+  # inputs, # this option loses too
   ...
 }: {
   # Home Manager needs a bit of information about you and the
@@ -12,7 +12,6 @@
     stateVersion = "25.11"; # Read the description or don't touch
     packages = with pkgs; [
       tree
-      firefox
       alejandra
       nix-du
       nix-tree
@@ -44,6 +43,12 @@
           onEvent = "fish_greeting";
         };
       };
+    };
+    firefox = {
+      enable = true;
+    };
+    firefoxpwa = {
+      enable = true;
     };
     btop = {
       enable = true;
