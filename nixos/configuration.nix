@@ -404,11 +404,6 @@
     flatpak = {
       enable = true;
     };
-    mosh = {
-      enable = true;
-      openFirewall = true;
-      withUtempter = true;
-    };
     openssh = {
       enable = true;
       openFirewall = true;
@@ -675,6 +670,11 @@
     fish = {
       enable = true;
       useBabelfish = true;
+    };
+    mosh = {
+      enable = true;
+      openFirewall = true;
+      withUtempter = true;
     };
   };
 
