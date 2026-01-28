@@ -424,7 +424,7 @@
             min_core_clock = 210;
             max_core_clock = 2100;
             gpu_clock_offsets = {
-              "0" = 100;
+              "0" = 105;
             };
             mem_clock_offsets = {
               "0" = 900;
