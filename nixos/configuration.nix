@@ -601,11 +601,13 @@
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
   users = {
+    mutableUsers = true;
     users = {
       monyx = {
         isNormalUser = true;
         description = "monyx";
         extraGroups = ["wheel" "networkmanager" "video" "input" "audio"]; # Enable ‘sudo’ for the user.
+        hashedPassword = "$y$j9T$wXdQSLqyNXpCehMmnmHvn0$cv4eLhzzVjjZmtZOjECicK/ecJL2vDGjN29iAdlVRP4";
         shell = pkgs.fish;
       };
     };
