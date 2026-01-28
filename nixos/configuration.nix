@@ -411,8 +411,13 @@
         PasswordAuthentication = false;
       };
       knownHosts = {
-        "HONOR X7d" = {
+        "X7d" = {
           publicKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJDUhd//gQSHfraRTaOk+OFOC5rPBpkb15eLGFUbpt2B";
+          hostNames = [ ];
+        };
+        "mx" = {
+          publicKey = "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICygOukthTb0d5a1sISZki7Ny+UOG/V82slUIxAXPiN3";
+          hostNames = [ "gaming-laptop" "172.28.11.144" ];
         };
       };
     };
