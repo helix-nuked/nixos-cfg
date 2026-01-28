@@ -250,7 +250,8 @@
     };
     scx = {
       enable = true;
-      scheduler = "scx_bpfland";
+      scheduler = "scx_rustland";
+      package = pkgs.scx.rustscheds;
     };
     fstrim = {
       enable = true;
