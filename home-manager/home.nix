@@ -18,6 +18,7 @@
       nom
       manix
       nvtopPackages.full
+      kdePackages.kcalc
       nvitop
       nil
       ayugram-desktop
