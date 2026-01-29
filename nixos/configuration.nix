@@ -245,7 +245,7 @@
     # blueman = {
     #   enable = true;
     # };
-    # bpftune = {
+    # bpftune = { # Disabled for stability
     #   enable = true;
     # };
     scx = {
