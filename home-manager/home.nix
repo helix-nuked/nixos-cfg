@@ -92,6 +92,17 @@
     vscode = {
       enable = true;
       package = pkgs.vscodium;
+      profiles = {
+        "monyx" = {
+          extensions = with pkgs.vscode-extensions; [
+            kamadorueda.alejandra
+            mhutchie.git-graph
+            eamodio.gitlens
+            arrterian.nix-env-selector
+            jnoortheen.nix-ide
+          ];
+        };
+      };
     };
   };
 
