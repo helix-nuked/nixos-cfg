@@ -89,6 +89,10 @@
         openLinksWithElectron = false;
       };
     };
+    vscode = {
+      enable = true;
+      package = pkgs.vscodium;
+    };
   };
 
   # This value determines the Home Manager release that your
