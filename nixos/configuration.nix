@@ -108,6 +108,12 @@
     blacklistedKernelModules = ["nouveau" "iTCO_wdt"];
   };
 
+  virtualisation = {
+    vmVariant = {
+      boot.resumeDevice = lib.mkForce "";
+    };
+  };
+
   networking = {
     nameservers = ["127.0.0.1" "::1"];
     hostName = "gaming-laptop"; # Define your hostname.
