@@ -418,7 +418,7 @@
       openFirewall = true;
     };
     lact = {
-      enable = true;
+      enable = false; #FIXME May can be a culprit
       settings = {
         version = 5;
         daemon = {
