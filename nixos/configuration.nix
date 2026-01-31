@@ -251,17 +251,17 @@
     # blueman = {
     #   enable = true;
     # };
-    bpftune = {
-      enable = true;
-    };
-    # scx = {
+    # bpftune = {
     #   enable = true;
-    #   scheduler = "scx_lavd";
-    #   extraArgs = [
-    #     "--autopilot"
-    #   ];
-    #   package = pkgs.scx.rustscheds;
     # };
+    scx = {
+      enable = true;
+      scheduler = "scx_lavd";
+      extraArgs = [
+        "--autopilot"
+      ];
+      package = pkgs.scx.rustscheds;
+    };
     fstrim = {
       enable = true;
       interval = "weekly";
