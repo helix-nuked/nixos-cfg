@@ -27,6 +27,12 @@
     ];
   };
 
+  services = {
+    easyeffects = {
+      enable = true;
+    };
+  };
+
   programs = {
     nh = {
       enable = true;
