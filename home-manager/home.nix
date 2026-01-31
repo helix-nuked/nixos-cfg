@@ -24,7 +24,7 @@
       ayugram-desktop
       discordo
       pokemon-colorscripts
-      pavuctl
+      pavucontrol
     ];
   };
 
