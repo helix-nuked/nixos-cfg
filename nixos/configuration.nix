@@ -825,6 +825,9 @@
       openFirewall = true;
       withUtempter = true;
     };
+    coolercontrol = {
+      enable = true;
+    };
   };
 
   zramSwap = {
