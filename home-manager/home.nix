@@ -91,7 +91,7 @@
     };
     vscode = {
       enable = true;
-      package = pkgs.vscodium;
+      # package = pkgs.vscodium; # temporarily disabled
       profiles = {
         "monyx" = {
           extensions = with pkgs.vscode-extensions; [
