@@ -257,9 +257,9 @@
     scx = {
       enable = true;
       scheduler = "scx_lavd";
-      extraArgs = [
-        "--autopilot"
-      ];
+      # extraArgs = [
+      #   "--autopilot"
+      # ];
       package = pkgs.scx.rustscheds;
     };
     fstrim = {
