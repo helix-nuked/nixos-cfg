@@ -25,6 +25,7 @@
       discordo
       pokemon-colorscripts
       pavucontrol
+      python314
     ];
   };
 
