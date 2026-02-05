@@ -103,16 +103,16 @@
     kernelModules = {
       ntsync = true;
     };
-    resumeDevice = "/dev/disk/by-uuid/8583f2df-34ce-4eae-b2b5-7da854b675ff";
+    # resumeDevice = "/dev/disk/by-uuid/8583f2df-34ce-4eae-b2b5-7da854b675ff";
     kernelParams = ["nvme_load=yes" "quiet" "splash" "udev.log_level=0" "nowatchdog"];
     blacklistedKernelModules = ["nouveau" "iTCO_wdt"];
   };
 
-  virtualisation = {
-    vmVariant = {
-      boot.resumeDevice = lib.mkOverride "";
-    };
-  };
+  # virtualisation = {
+  #   vmVariant = {
+  #     boot.resumeDevice = lib.mkOverride "";
+  #   };
+  # };
 
   networking = {
     nameservers = ["127.0.0.1" "::1"];
@@ -826,10 +826,12 @@
       ];
     };
     fish = {
+      # Shell
       enable = true;
       useBabelfish = true;
     };
     mosh = {
+      # + SSH
       enable = true;
       openFirewall = true;
       withUtempter = true;

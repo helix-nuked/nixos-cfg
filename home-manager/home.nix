@@ -108,6 +108,7 @@
             eamodio.gitlens
             arrterian.nix-env-selector
             jnoortheen.nix-ide
+            ms-python.python
           ];
         };
       };
