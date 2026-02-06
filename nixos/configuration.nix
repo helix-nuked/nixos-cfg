@@ -257,9 +257,9 @@
     scx = {
       enable = true;
       scheduler = "scx_bpfland";
-      # extraArgs = [
-      #   "--autopilot"
-      # ];
+      extraArgs = [
+        "-f"
+      ];
       package = pkgs.scx.rustscheds;
     };
     fstrim = {
