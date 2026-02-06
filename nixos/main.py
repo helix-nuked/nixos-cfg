@@ -1,2 +1,0 @@
-PuPsIk
-_GaMiNg = "boq"
