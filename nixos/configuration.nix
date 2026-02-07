@@ -262,6 +262,12 @@
       ];
       package = pkgs.scx.rustscheds;
     };
+    tlp = {
+      enable = true;
+    };
+    supergfxd = {
+      enable = true;
+    };
     fstrim = {
       enable = true;
       interval = "weekly";
